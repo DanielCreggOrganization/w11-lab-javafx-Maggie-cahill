@@ -1,37 +1,21 @@
 package ie.atu.testpackage;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.scene.control.Label;
 
+import java.text.DateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 
 
 
-public class Main extends Application {
+public class WelcomePage extends Application {
+
     
-    // @Override
-    // public void start(Stage primaryStage) {
-    //     // Create the main content node
-    //     Label welcomeLabel = new Label("JavaFX is Cool!");
-    //     welcomeLabel.setStyle("-fx-font-size: 40px;");
-        
-    //     // Create a container to hold our label
-    //     StackPane root = new StackPane();
-    //     root.getChildren().add(welcomeLabel);
-        
-    //     // Create and configure the scene
-    //     Scene scene = new Scene(root, 400, 200);
-        
-    //     // Configure and show the stage
-    //     primaryStage.setTitle("JavaFX Title");
-    //     primaryStage.setScene(scene);
-    //     primaryStage.show();
-
     @Override
     public void start(Stage primaryStage) {
         // Create the main content node
