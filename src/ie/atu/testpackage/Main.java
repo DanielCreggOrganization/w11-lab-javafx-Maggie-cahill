@@ -13,6 +13,7 @@ import javafx.scene.control.Label;
 
 
 public class Main extends Application {
+    public static void Main(String[]args) {}
     
     // @Override
     // public void start(Stage primaryStage) {
